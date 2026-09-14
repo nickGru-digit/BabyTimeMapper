@@ -1,0 +1,16 @@
+start = events
+events = element events { track+ }
+track = element track { event+, type, name }
+type |= attribute type { "1" | "2" | "3" }
+name  = attribute name { text }
+event = element event { title, date+, description, lat, lon }
+title = element title { text }
+date = element date { type, year, month?, day?, era? }
+type |= attribute type { "start" | "end" }
+description = element description { text }
+lat = element lat { xsd:float }
+lon = element lon { xsd:float }
+year = element year { xsd:int }
+month = element month { xsd:int }
+day = element day { xsd:int }
+era = element era { "BC" | "AD" }
