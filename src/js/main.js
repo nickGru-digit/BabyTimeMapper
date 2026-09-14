@@ -397,7 +397,7 @@ function buildTimelineSVG(events, onSelect) {
   const lineYs = [-10, 15, 40, 65, 90, 115, 140, 165, 190, 215, 240, 265]
   lineYs.forEach(y => {
     const line = document.createElementNS(svgNS, 'line')
-    line.setAttribute('x1', -700); line.setAttribute('y1', y)
+    line.setAttribute('x1', -70000); line.setAttribute('y1', y)
     line.setAttribute('x2', svgWidth); line.setAttribute('y2', y)
     line.setAttribute('stroke', '#173aff'); line.setAttribute('stroke-width', 3)
     g.appendChild(line)
@@ -514,7 +514,7 @@ function buildTimelineSVG(events, onSelect) {
     if (seen.has(event.track)) return
     seen.add(event.track)
     const highlightL = document.createElementNS(svgNS, 'line')
-    highlightL.setAttribute('x1', -700); highlightL.setAttribute('y1', trackY2[event.track] - 10)
+    highlightL.setAttribute('x1', -70000); highlightL.setAttribute('y1', trackY2[event.track] - 10)
     highlightL.setAttribute('x2', svgWidth); highlightL.setAttribute('y2', trackY2[event.track] - 10)
     highlightL.setAttribute('stroke', '#ff910091'); highlightL.setAttribute('stroke-width', 25)
     g.insertBefore(highlightL, rect)
