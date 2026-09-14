@@ -3,111 +3,101 @@
 <events>
  <track type="1" name="early">
   <event>
-    <title>Glorbus the Destroyer invades Siberia</title>
+    <title>Julius Caesar invades Britain</title>
     <date type="start">
-      <year>3000</year>
-      <month>12</month>
-      <day>31</day>
+      <year>55</year>
       <era>BC</era>
     </date>
     <date type="end">
-      <year>2999</year>
-      <month>1</month>
-      <day>1</day>
+      <year>54</year>
       <era>BC</era>
     </date>
-    <description>Glorbus conquers and sets up a base in the middle of a snowy wasteland near the modern day city of... umm</description>
-    <lat>68.252441</lat>
-    <lon>111.051612</lon>
+    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
+    <lat>51.1789</lat>
+    <lon>1.1713</lon>
   </event>
 
   <event>
-    <title>Glorbian Civil War Ends in Stalemate</title>
+    <title>Battle of Actium</title>
     <date type="start">
-      <year>2990</year>
-      <month>05</month>
-      <day>18</day>
+      <year>31</year>
+      <month>09</month>
       <era>BC</era>
     </date>
     <date type="end">
-    <year>20</year>
-    <month>11</month>
-      <day>3</day>
+    <year>10</year>
+    <month>07</month>
     <era>BC</era>
     </date>
-    <description>Peace is made between Glorbus the Destroyer and Glimbo the Meek after a long, drawn out conflict</description>
-    <lat>45.771965</lat>
-    <lon>-71.926539</lon>
+    <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
+    <lat>38.9419</lat>
+    <lon>20.7400</lon>
   </event>
   </track>
  
  <track type="2" name="mid">
   <event>
-    <title>Establishment of Glorbite Democratic Council of Representative Free Delegates</title>
+    <title>Storming of the Bastille</title>
     <date type="start">
-      <year>150</year>
+      <year>1789</year>
       <month>07</month>
       <day>14</day>
       <era>AD</era>
     </date>
     <date type="end">
     </date>
-    <description>The GDCRFD formalize their control over the now Glorbite Republic, succeeding the Glorbite Empire</description>
-    <lat>7.905782862973762</lat>
-    <lon>-77.40341597568624</lon>
+    <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
+    <lat>48.8533</lat>
+    <lon>2.3692</lon>
     <media>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Prise_de_la_Bastille.jpg/640px-Prise_de_la_Bastille.jpg</media>
   </event>
  
   <event>
-    <title>Quick Pit Stop in Rio</title>
+    <title>Declaration of the Rights of Man</title>
     <date type="start">
-      <year>153</year>
-      <month>01</month>
-      <day>19</day>
+      <year>1789</year>
+      <month>08</month>
+      <day>26</day>
       <era>AD</era>
     </date>
     <date type="end">
-      <year>2020</year>
-      <month>2</month>
-      <day>29</day>
+    </date>
+    <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
+    <lat>48.8566</lat>
+    <lon>2.3522</lon>
+  </event>
+ 
+  <event>
+    <title>Execution of Louis XVI</title>
+    <date type="start">
+      <year>1793</year>
+      <month>01</month>
+      <day>21</day>
       <era>AD</era>
     </date>
-    <description>The GDCRFD decide that, to help moral, they should take a quick break from governing and pick it up later</description>
-    <lat>-22.951752</lat>
-    <lon>-43.210455</lon>
+    <date type="end">
+    </date>
+    <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
+    <lat>48.8656</lat>
+    <lon>2.3212</lon>
   </event>
  </track>
-  
 
 <track type="3" name="late">
   <event>
-    <title>Startling Realization</title>
+    <title>Napoleon crowned Emperor</title>
     <date type="start">
-      <year>2020</year>
-      <month>3</month>
-      <day>13</day>
+      <year>1804</year>
+      <month>12</month>
+      <day>02</day>
       <era>AD</era>
     </date>
     <date type="end">
     </date>
-    <description>Uhmm.. sorry. How long was I asleep? Crap! What's this weird statue?</description>
-    <lat>-22.951752</lat>
-    <lon>-43.210455</lon>
-  </event>
-
-  <event>
-    <title>Glimbo the Meek's Redemption</title>
-    <date type="start">
-      <year>2026</year>
-      <month>9</month>
-      <day>14</day>
-      <era>AD</era>
-    </date>
-    <date type="end">
-    </date>
-    <description>Is the war truly over or will Glimbo stage Glorbite Civil War: Part Two? Find out Next Summer</description>
-    <lat>34.13413577626753</lat>
-    <lon>-118.32154151648074</lon>
+    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.</description>
+    <lat>48.8530</lat>
+    <lon>2.3499</lon>
+    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg/480px-David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg</media>
   </event>
  </track>
 </events>
